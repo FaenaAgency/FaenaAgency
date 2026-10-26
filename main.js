@@ -12,7 +12,7 @@
   // interface words the script writes, per page language (<html lang>)
   const WORDS = {
     en: { view: "view", menu: "( MENU )", close: "( CLOSE )", play: "( PLAY MUSIC )", pause: "( PAUSE MUSIC )", playA: "Play music", pauseA: "Pause music", copied: "( COPIED )" },
-    es: { view: "ver", menu: "( MENÚ )", close: "( CERRAR )", play: "( PONER MÚSICA )", pause: "( PAUSAR MÚSICA )", playA: "Poner música", pauseA: "Pausar música", copied: "( COPIADO )" },
+    es: { view: "ver", menu: "( MENÚ )", close: "( CERRAR )", play: "( PONER MÚSICA )", pause: "( PAUSAR MÚSICA )", playA: "Poner música", pauseA: "Pausar música", copied: "( CORREO COPIADO )" },
   };
   const T = WORDS[document.documentElement.lang.slice(0, 2)] || WORDS.en;
 
