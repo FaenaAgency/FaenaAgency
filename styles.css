@@ -837,3 +837,19 @@ figcaption { font-family: var(--mono); font-weight: 500; font-size: 10px; letter
   .nav__ig-icon { display: block; }
   .nav__ig { display: flex; align-items: center; padding: 4px; margin: -4px; }
 }
+
+/* language switch: the current language is solid, the other one dimmed */
+.nav__lang { white-space: nowrap; }
+.nav__lang b { font-weight: inherit; }
+.nav__lang a { opacity: .5; transition: opacity .3s; }
+.nav__lang a:hover { opacity: 1; }
+.menu__lang b { font-weight: inherit; }
+.menu__lang a { opacity: .55; }
+/* phones: the bar has no room for the switch, so it lives in the menu */
+@media (max-width: 760px) {
+  .nav .nav__lang { display: none; }
+  .menu__foot { flex-wrap: wrap; gap: 14px 22px; justify-content: flex-start; }
+  .menu__foot > span:first-child { display: none; }
+  .menu__lang { font-size: 13px; opacity: 1; }
+  html[lang="es"] .nav__cta { padding: 7px 8px; letter-spacing: .06em; }
+}

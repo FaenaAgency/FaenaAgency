@@ -9,6 +9,13 @@
   const fine = matchMedia("(pointer: fine)").matches;
   const isMobile = () => innerWidth <= 860;
 
+  // interface words the script writes, per page language (<html lang>)
+  const WORDS = {
+    en: { view: "view", menu: "( MENU )", close: "( CLOSE )", play: "( PLAY MUSIC )", pause: "( PAUSE MUSIC )", playA: "Play music", pauseA: "Pause music", copied: "( COPIED )" },
+    es: { view: "ver", menu: "( MENÚ )", close: "( CERRAR )", play: "( PONER MÚSICA )", pause: "( PAUSAR MÚSICA )", playA: "Poner música", pauseA: "Pausar música", copied: "( COPIADO )" },
+  };
+  const T = WORDS[document.documentElement.lang.slice(0, 2)] || WORDS.en;
+
   /* ------------------------------------------------------------------ text splitting */
   function splitChars(el) {
     const walk = (node) => {
@@ -83,7 +90,7 @@
       const link = e.target.closest("a, button, .species__row");
       c.classList.toggle("is-view", !!view);
       c.classList.toggle("is-link", !view && !!link);
-      if (view) label.textContent = view.dataset.cursorLabel || "view";
+      if (view) label.textContent = view.dataset.cursorLabel || T.view;
     });
     const loop = () => {
       cx += (x - cx) * 0.2; cy += (y - cy) * 0.2;
@@ -126,7 +133,7 @@
     const set = (open) => {
       document.body.classList.toggle("menu-open", open);
       btn.setAttribute("aria-expanded", open);
-      btn.textContent = open ? "( CLOSE )" : "( MENU )";
+      btn.textContent = open ? T.close : T.menu;
       m.setAttribute("aria-hidden", !open);
       if (lenis) open ? lenis.stop() : lenis.start();
     };
@@ -163,8 +170,8 @@
 
     const setState = (on) => {
       btn.setAttribute("aria-pressed", on);
-      btn.setAttribute("aria-label", on ? "Pause music" : "Play music");
-      txt.textContent = on ? "( PAUSE MUSIC )" : "( PLAY MUSIC )";
+      btn.setAttribute("aria-label", on ? T.pauseA : T.playA);
+      txt.textContent = on ? T.pause : T.play;
     };
 
     const showPanel = (open) => {
@@ -214,7 +221,7 @@
     $$(".js-copy").forEach((btn) => {
       const label = btn.textContent;
       btn.addEventListener("click", async () => {
-        try { await navigator.clipboard.writeText(btn.dataset.email); btn.textContent = "( COPIED )"; }
+        try { await navigator.clipboard.writeText(btn.dataset.email); btn.textContent = T.copied; }
         catch (e) { location.href = `mailto:${btn.dataset.email}`; return; }
         btn.classList.add("is-copied");
         setTimeout(() => { btn.textContent = label; btn.classList.remove("is-copied"); }, 2200);
