@@ -1,0 +1,26 @@
+.DS_Store
+.claude/
+*.log
+
+# earlier photo picks the site no longer uses (kept locally, not published)
+assets/img/banana-night.jpg
+assets/img/boa-coil.jpg
+assets/img/cheetah-dark.jpg
+assets/img/cheetah-run.jpg
+assets/img/fern.jpg
+assets/img/heliconia-night.jpg
+assets/img/heliconia.jpg
+assets/img/jaguar-branch.jpg
+assets/img/jaguar-face.jpg
+assets/img/jaguar-front.jpg
+assets/img/jaguar-hidden.jpg
+assets/img/jaguar-profile.jpg
+assets/img/jaguar-sit.jpg
+assets/img/leopard-rear.jpg
+assets/img/leopard-tail.jpg
+assets/img/macaw-blur.jpg
+assets/img/macaw-wings.jpg
+assets/img/macaws-pair.jpg
+assets/img/monstera.jpg
+assets/img/panther-tree.jpg
+assets/img/spots.jpg

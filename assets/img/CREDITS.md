@@ -1,0 +1,40 @@
+# Photo credits (Wikimedia Commons)
+- `panther-tree.jpg` — File:Black Panther - India.jpg ·   · CC BY-SA 4.0
+- `panther-grass.jpg` — File:Giza (meaning darkness in Swahili); one of only three melanistic leopards (black panther) in the Kenya area.jpg ·   · CC BY 4.0
+- `jaguar-branch.jpg` — File:Panthera onca, Krefeld (DE) -- 2023 -- 0778.jpg ·   · FAL
+- `jaguar-face.jpg` — File:Sleepy Jaguar Face (13361047483).jpg ·   · CC BY-SA 2.0
+- `macaw-blur.jpg` — File:Ara chloropterus -Zoo de Pont-Scorff, Morbihan, France-8a (3).jpg ·   · CC BY-SA 2.0
+- `macaw-wings.jpg` — File:Ara macao -Diergaarde Blijdorp -flying-8a.jpg ·   · CC BY-SA 2.0
+- `macaws-pair.jpg` — File:Ara macao -San Diego Zoo, California, USA-8a (2).jpg ·   · CC BY 2.0
+- `heliconia.jpg` — File:Heliconia bihai (red palulu).jpg ·   · CC BY-SA 4.0
+- `heliconia-night.jpg` — File:Red ginger heliconia flower.jpg ·   · CC BY-SA 4.0
+- `jaguar-hidden.jpg` — File:Jaguar (Panthera onca) young male resting with an eye open ... (48409068137).jpg · Bernard DUPONT from FRANCE  · CC BY-SA 2.0
+- `jaguar-front.jpg` — File:Jaguar (Panthera onca palustris) female Piquiri River 2.JPG · Charles J. Sharp  · CC BY-SA 4.0
+- `boa-coil.jpg` — File:Emerald tree boa444.jpg · Benjamint444  · CC BY-SA 3.0
+- `cheetah-run.jpg` — File:Cheetah Run.jpg · Mark Dumont  · CC BY 2.0
+- `cheetah-dark.jpg` — File:Sarah (cheetah).jpg · Gregory Wilson (Director and cinematographer) (personal website)  · CC BY 3.0
+- `monstera.jpg` — File:Monstera deliciosa DSC02605.jpg · Smatu  · CC BY-SA 4.0
+- `fern.jpg` — File:Tree Fern Spores.jpg · Anca Mosoiu (anca-wikipedia 'at' anca 'dot' tv)  · CC BY-SA 3.0
+- `leopard-eye.jpg` — File:Leopard-2-Geelhout-kloofb.jpg · Ryanvanhuyssteen  · CC BY-SA 4.0
+- `spots.jpg` — File:Leopard coat 1960-70 (4).jpg · Libricool (talk) 14:41, 30 September 2010 (UTC)  · Public domain
+- `banana-night.jpg` — File:Banana leaf green (1).jpg · Jon Sullivan  · Public domain
+- `jaguar-profile.jpg` — File:Jaguar (Panthera onca palustris) male Three Brothers River.JPG · Charles J. Sharp  · CC BY-SA 4.0
+- `leopard-tail.jpg` — File:Leopard-Bakari-Lionsrock-Big-Cat-Sanctuary-Bethlehem-South-Africa.jpg · Clinton Naidoo  · CC BY 4.0
+- `leopard-rear.jpg` — File:Leopard tail, londolozi.jpg · Profberger  · CC BY-SA 3.0
+- `snake-scales.jpg` — File:Timber Rattlesnake (Crotalus horridus) - Flickr - 2ndPeter (3).jpg · Peter Paplanus from St. Louis, Missouri · CC BY 2.0
+- `ocelot-face.jpg` — File:079 Ocelot in Encontro das Águas State Park Photo by Giles Laurent.jpg · Giles Laurent · CC BY-SA 4.0
+- `ocelot-branch.jpg` — File:082 Ocelot in Encontro das Águas State Park Photo by Giles Laurent.jpg · Giles Laurent · CC BY-SA 4.0
+- `canopy-below.jpg` — File:Canopy DSC 6683.jpg · Kalyan Varma · CC BY-SA 4.0
+- `canopy-up.jpg` — File:Taman Negara, Malaysia, Tree Canopy.jpg · Vyacheslav Argenberg · CC BY 4.0
+- `river-aerial.jpg` — File:Amazon CIAT (3).jpg · Neil Palmer/CIAT · CC BY-SA 2.0
+- `jaguar-sit.jpg` — File:Jaguar (Panthera onca palustris) female Piquiri River 2.JPG · Charles J. Sharp · CC BY-SA 4.0
+- `jaguar-swim.jpg` — File:Jaguar (Panthera onca) male crossing the river ... - Flickr - berniedup.jpg · Bernard DUPONT from FRANCE · CC BY-SA 2.0
+- `jaguar-water.jpg` — File:Parque Estadual Encontro das Águas Thomas-Fuhrmann (2023- 01) Jaguar - Panthera onca swimming.jpg · Thomas Fuhrmann · CC BY-SA 4.0
+- `falls-dark.jpg` — File:Cold Waterfall.jpg · Clayborneoguy · CC BY-SA 4.0
+
+## Natural-history plates (public domain, cut out from their paper)
+- `plates/macaw.png` — Edward Lear, *Ara macao* (Illustrations of the Family of Psittacidae, 1832) · Public domain
+- `plates/heliconia.png` — Walter Hood Fitch, Curtis's Botanical Magazine, Tab. 4475 · Public domain
+- `plates/strelitzia.png` — William Curtis, The Botanical Magazine, Plate 119 (1791) · Public domain
+- `plates/banana.png` — Maria Sibylla Merian, Banana flower and fruit, Metamorphosis insectorum Surinamensium (1705) · Public domain
+- `plates/engraving.jpg` — *Monstera deliciosa*, wood engraving, Vesmír (1875) · Public domain
