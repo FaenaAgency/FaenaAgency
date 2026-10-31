@@ -853,3 +853,11 @@ figcaption { font-family: var(--mono); font-weight: 500; font-size: 10px; letter
   .menu__lang { font-size: 13px; opacity: 1; }
   html[lang="es"] .nav__cta { padding: 7px 8px; letter-spacing: .06em; }
 }
+
+/* arrows: forced to text style (no emoji on iOS), and left out on phones */
+.arw { font-variant-emoji: text; }
+/* .btn is a flex box: keep the spaces around the arrow (and around the closing bracket on phones) */
+.btn { white-space: pre; }
+@media (max-width: 760px) {
+  .arw { display: none; }
+}
