@@ -861,3 +861,11 @@ figcaption { font-family: var(--mono); font-weight: 500; font-size: 10px; letter
 @media (max-width: 760px) {
   .arw { display: none; }
 }
+
+/* services: the funnel stage sits beside the numeral, in the service-list style */
+.species__row { grid-template-columns: 7.5rem 1fr 22vw 15vw; }   /* one width for every row, so the titles line up */
+.species__n { white-space: nowrap; }
+.species__stage { margin-left: .9em; font-family: var(--mono); font-weight: 500; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--bone); opacity: .65; }
+@media (max-width: 860px) {
+  .species__row { grid-template-columns: 1fr; }
+}
